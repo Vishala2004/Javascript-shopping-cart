@@ -15,15 +15,23 @@
     font-size:1.5rem;
     font-weight: 600;
     margin-top: 2rem;
+    
+}
+.cart-product-title{
+    text-align:justify;
+    font-size:1rem;
+    font-weight:100;
+    margin-right: 2rem;
 }
 .total-title{
     font-size: 1rem;
     font-weight: 600;
 }
 .total-price{
-    margin-left:0.5rem;
+    margin: 0.5rem;
 }
 .btn-buy{
+    
     display: flex;
     margin:1.5rem auto 0 auto;
     padding:12 px 20px;
@@ -35,11 +43,11 @@
 .btn-buy:hover{
     background: var(--text-color);
 }
-close-cart{
+.close-cart{
     position:absolute;
-    top:1rem;
+    top:2rem;
     right: 0.8rem;
-    font-size: 2 rem;
+    font-size:  3rem;
     color:var(--text-color);
     cursor: pointer;
 }
@@ -51,10 +59,9 @@ close-cart{
 .cart-price{
     font-weight: 500;
 }
+
+
     
     
-
-
-
-
-
+    
+     
